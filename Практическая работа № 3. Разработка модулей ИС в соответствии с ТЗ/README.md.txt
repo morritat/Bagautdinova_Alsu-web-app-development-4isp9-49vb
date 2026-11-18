@@ -36,7 +36,7 @@ python -m venv venv
 .\venv\Scripts\activate
 
 # 4. Установить необходимые библиотеки (Flask и Werkzeug)
-pip install Flask==2.3.3 Werkzeug==2.3.7
+pip install -r requirements.txt
 
 # 5. Создать и инициализировать базу данных
 python init_db.py
